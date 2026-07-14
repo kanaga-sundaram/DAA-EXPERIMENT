@@ -1,0 +1,13 @@
+Text: ABABACADABABABA
+Pattern: ABA
+
+Naive  -> Matches at: [0, 2, 8, 10, 12], Comparisons: 25
+KMP    -> Matches at: [0, 2, 8, 10, 12], Comparisons: 16
+RK     -> Matches at: [0, 2, 8, 10, 12], Comparisons: 15
+
+     Pattern      Naive        KMP         RK
+--------------------------------------------------
+          AB      12473      10000       1244
+        ABCD      13237      10000        218
+       ABCDA      13271      10009        165
+    ABCDABCD      13277      10009        120
