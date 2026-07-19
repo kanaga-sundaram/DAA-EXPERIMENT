@@ -1,0 +1,10 @@
+Array: [3, 1, 7, 4, 9, 2, 8, 5, 6, 0]
+Min: 0, Max: 9
+DC Comparisons: 14
+Naive Comparisons: 18
+
+    Size     DC Comps    Naive Comps   Formula 3n/2-2
+      10           14             18               13
+     100          162            198              148
+    1000         1510           1998             1498
+   10000        15902          19998            14998
